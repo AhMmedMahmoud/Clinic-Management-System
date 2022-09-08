@@ -1,4 +1,5 @@
 # Clinic-Management-System
+this project was written in c using Microsoft Visual Studio
 ## Aim
 implement clinic management system helps clinic receptionist to manage the clinic
 ## Application flowchart
