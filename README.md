@@ -4,6 +4,17 @@ this project was written in c using Microsoft Visual Studio
 implement clinic management system helps clinic receptionist to manage the clinic
 ## Project State Diagram
 ![image](https://user-images.githubusercontent.com/104006521/189241357-4d634398-f1d1-4e07-9d8b-3d60ac84885a.png)
+
+## Constraints
+- Admin Password is 4 characters
+- Patient ID is 14 numeric characters
+- Patient Name is 24 alphabetic characters string max and 20 min.
+- Patient Age is less than 300
+- Slot start time and slot end time are float in the format HH.MM, e.g 12.30.
+- Slot end time must be greater than slot start time
+- at Register New Patient operation or Reserve Operation, entering any invalid data about patient keeps asking for Re-entering
+valid data
+
 ## Video 
 [here](https://drive.google.com/file/d/1MzAeNSiVyD5y7izZ9DSC3t569PHGfPec/view?usp=sharing)
 ## Zip File 
