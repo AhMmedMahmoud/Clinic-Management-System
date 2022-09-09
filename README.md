@@ -9,11 +9,15 @@ implement clinic management system helps clinic receptionist to manage the clini
 - Admin Password is 4 characters
 - Patient ID is 14 numeric characters
 - Patient Name is 24 alphabetic characters string max and 20 min.
-- Patient Age is less than 300
+- Patient Age is less than 300.
 - Slot start time and slot end time are float in the format HH.MM, e.g 12.30.
-- Slot end time must be greater than slot start time
+- Slot end time must be greater than slot start time.
 - at Register New Patient operation or Reserve Operation, entering any invalid data about patient keeps asking for Re-entering
-valid data
+valid data.
+- patients' database is a linked list of ST_patient_t for patients.
+- slots' database is a linked list of ST_slot_t for the defined slots by admin.
+- reservations' database is a linked list of ST_reservation_t for the upcoming appointments only.
+
 
 ## Video 
 [here](https://drive.google.com/file/d/1MzAeNSiVyD5y7izZ9DSC3t569PHGfPec/view?usp=sharing)
