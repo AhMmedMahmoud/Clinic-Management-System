@@ -29,7 +29,7 @@ exit from admin mode
 
 ## User Mode
 There is no password. The system allows the following features:
-#### 1. View patient record
+### 1. View patient record
 By entering the patient ID, the system shall show the basic information for the patient.
 
 ### 2. View today’s reservation
