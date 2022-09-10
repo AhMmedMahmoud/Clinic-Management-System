@@ -17,15 +17,16 @@ By entering patient ID, the system allows the admin to edit the patient informat
 - By default there are 5 available slots, 2pm to 2:30pm, 2:30pm to 3pm, 3pm to 3:30pm, 4pm to 4:30pm and 4:30pm to 5pm.
 - Upon opening of this window, The admin shall enter the patient ID
 - if patient is already registered, the system shall display the available slots to choose  desired slot.
-- if patient isnot registered, the system asks for entire information then display the available slots to choose desired slot
+- if patient isnot registered, the system asks for entire information then displays the available slots to choose desired slot
+- if patient is not registered, the system asks for the rest of the patient's information then displays the available slots to select the desired slot
 ### 4. Cancel reservation
 By entering patient ID, the system allows the admin to cancel the reservation.
 
 ### 5. Change Slot Reservation
-By entering patient ID, the system allows the admin to cjange slot reservation.
+By entering patient ID, the system allows the admin to change slot reservation.
 
 ### 6. Log out
-exit from admin mode
+the system shall exit from admin mode
 
 ## User Mode
 There is no password. The system allows the following features:
@@ -36,7 +37,7 @@ By entering the patient ID, the system shall show the basic information for the 
 the system shall print all reservations with the patient Information and reserved slot attached to each reservation.
 
 ### 3. Exit From User Mode
-exit from admin mode
+the system shall exit from user mode
 
 ## Project State Diagram
 ![image](https://user-images.githubusercontent.com/104006521/189241357-4d634398-f1d1-4e07-9d8b-3d60ac84885a.png)
