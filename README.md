@@ -7,20 +7,20 @@ At the beginning of the system, it asks the user to choose between admin mode an
 ### Admin Mode
 The system asks for password, the default password is 1234. The system allows 3 trails for the password entry, if the entered password was incorrect for 3 consecutive times, the system shall close. After login in the admin mode, the system shall provide the following features:
 
-#### Add new patient record
+#### 1. Add new patient record
    - To add a new patient, the admin shall shall enter these basic information: name, age, gender and ID.
-#### Edit patient record
+#### 2. Edit patient record
    - By entering patient ID, the system allows the admin to edit the patient information.
-#### Reserve a slot with the doctor
+#### 3. Reserve a slot with the doctor
    - By default there are 5 available slots, 2pm to 2:30pm, 2:30pm to 3pm, 3pm to 3:30pm, 4pm to 4:30pm and 4:30pm to 5pm.
 Upon opening of this window, The admin shall enter the patient ID
 if patient is already registered, the system shall display the available slots to choose  desired slot.
 if patient isnot registered, the system asks for entire information then display the available slots to choose desired slot
-#### Cancel reservation
+#### 4. Cancel reservation
    - By entering patient ID, the system allows the admin to cancel the reservation.
-#### Change Slot Reservation
-By entering patient ID, the system allows the admin to cjange slot reservation.
-#### Log out
+#### 5. Change Slot Reservation
+   - By entering patient ID, the system allows the admin to cjange slot reservation.
+#### 6. Log out
    - exit from admin mode
 
 ### User Mode
