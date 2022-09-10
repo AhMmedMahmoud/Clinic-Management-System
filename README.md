@@ -18,14 +18,19 @@ if patient is already registered, the system shall display the available slots t
 if patient isnot registered, the system asks for entire information then display the available slots to choose desired slot
 ###  4. Cancel reservation
 By entering patient ID, the system allows the admin to cancel the reservation.
+###  5. Change Slot Reservation
+By entering patient ID, the system allows the admin to cjange slot reservation.
+###  6. Log out
+exit from admin mode
 
 ### User Mode
 There is no password. The system allows the following features:
 ### 1. View patient record
 By entering the patient ID, the system shall show the basic information for the patient.
 ### 2. View today’s reservation
-the system shall print all reservations with the patient Information attached to each reservation slot.
-
+the system shall print all reservations with the patient Information and reserved slot attached to each reservation.
+### 3. Exit From User Mode
+exit from admin mode
 
 ## Project State Diagram
 ![image](https://user-images.githubusercontent.com/104006521/189241357-4d634398-f1d1-4e07-9d8b-3d60ac84885a.png)
