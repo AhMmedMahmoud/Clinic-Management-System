@@ -4,7 +4,7 @@ this project was written in c using Microsoft Visual Studio
 implement clinic management system helps clinic receptionist to manage the clinic
 ## Procedure Details
 At the beginning of the system, it asks the user to choose between admin mode and user mode.
-### Admin Mode
+## Admin Mode
 The system asks for password, the default password is 1234. The system allows 3 trails for the password entry, if the entered password was incorrect for 3 consecutive times, the system shall close. After login in the admin mode, the system shall provide the following features:
 
 ### 1. Add new patient record
@@ -23,7 +23,7 @@ By entering patient ID, the system allows the admin to cjange slot reservation.
 ###  6. Log out
 exit from admin mode
 
-### User Mode
+## User Mode
 There is no password. The system allows the following features:
 ### 1. View patient record
 By entering the patient ID, the system shall show the basic information for the patient.
