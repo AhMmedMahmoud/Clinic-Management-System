@@ -17,8 +17,7 @@ By entering patient ID, the system allows the admin to edit the patient informat
 - By default there are 5 available slots, 2pm to 2:30pm, 2:30pm to 3pm, 3pm to 3:30pm, 4pm to 4:30pm and 4:30pm to 5pm.
 - Upon opening of this window, The admin shall enter the patient ID
 - if patient is already registered, the system shall display the available slots to choose  desired slot.
-- if patient isnot registered, the system asks for entire information then displays the available slots to choose desired slot
-- if patient is not registered, the system asks for the rest of the patient's information then displays the available slots to select the desired slot
+- if patient is not registered, the system asks for the rest of the patient's information then displays the available slots to choose desired slot
 ### 4. Cancel reservation
 By entering patient ID, the system allows the admin to cancel the reservation.
 
