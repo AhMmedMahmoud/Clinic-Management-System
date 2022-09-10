@@ -14,25 +14,27 @@ To add a new patient, the admin shall shall enter these basic information: name,
 By entering patient ID, the system allows the admin to edit the patient information.
 
 ### 3. Reserve a slot with the doctor
-By default there are 5 available slots, 2pm to 2:30pm, 2:30pm to 3pm, 3pm to 3:30pm, 4pm to 4:30pm and 4:30pm to 5pm.
-Upon opening of this window, The admin shall enter the patient ID
-if patient is already registered, the system shall display the available slots to choose  desired slot.
-if patient isnot registered, the system asks for entire information then display the available slots to choose desired slot
+- By default there are 5 available slots, 2pm to 2:30pm, 2:30pm to 3pm, 3pm to 3:30pm, 4pm to 4:30pm and 4:30pm to 5pm.
+- Upon opening of this window, The admin shall enter the patient ID
+- if patient is already registered, the system shall display the available slots to choose  desired slot.
+- if patient isnot registered, the system asks for entire information then display the available slots to choose desired slot
 ### 4. Cancel reservation
 By entering patient ID, the system allows the admin to cancel the reservation.
 
 ### 5. Change Slot Reservation
 By entering patient ID, the system allows the admin to cjange slot reservation.
 
-6. Log out
+### 6. Log out
 exit from admin mode
 
 ### User Mode
 There is no password. The system allows the following features:
 #### 1. View patient record
 By entering the patient ID, the system shall show the basic information for the patient.
+
 ### 2. View today’s reservation
 the system shall print all reservations with the patient Information and reserved slot attached to each reservation.
+
 ### 3. Exit From User Mode
 exit from admin mode
 
