@@ -4,32 +4,32 @@ this project was written in c using Microsoft Visual Studio
 implement clinic management system helps clinic receptionist to manage the clinic
 ## Procedure Details
 At the beginning of the system, it asks the user to choose between admin mode and user mode.
-## Admin Mode
+### Admin Mode
 The system asks for password, the default password is 1234. The system allows 3 trails for the password entry, if the entered password was incorrect for 3 consecutive times, the system shall close. After login in the admin mode, the system shall provide the following features:
 
-### 1. Add new patient record
+- 1. Add new patient record
 To add a new patient, the admin shall shall enter these basic information: name, age, gender and ID.
-### 2. Edit patient record
+- 2. Edit patient record
 By entering patient ID, the system allows the admin to edit the patient information.
-### 3. Reserve a slot with the doctor
+- 3. Reserve a slot with the doctor
 By default there are 5 available slots, 2pm to 2:30pm, 2:30pm to 3pm, 3pm to 3:30pm, 4pm to 4:30pm and 4:30pm to 5pm.
 Upon opening of this window, The admin shall enter the patient ID
 if patient is already registered, the system shall display the available slots to choose  desired slot.
 if patient isnot registered, the system asks for entire information then display the available slots to choose desired slot
-###  4. Cancel reservation
+-  4. Cancel reservation
 By entering patient ID, the system allows the admin to cancel the reservation.
-###  5. Change Slot Reservation
+-  5. Change Slot Reservation
 By entering patient ID, the system allows the admin to cjange slot reservation.
-###  6. Log out
+-  6. Log out
 exit from admin mode
 
-## User Mode
+### User Mode
 There is no password. The system allows the following features:
-### 1. View patient record
+- 1. View patient record
 By entering the patient ID, the system shall show the basic information for the patient.
-### 2. View today’s reservation
+- 2. View today’s reservation
 the system shall print all reservations with the patient Information and reserved slot attached to each reservation.
-### 3. Exit From User Mode
+- 3. Exit From User Mode
 exit from admin mode
 
 ## Project State Diagram
